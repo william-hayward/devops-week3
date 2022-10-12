@@ -1,5 +1,5 @@
 name: Checking Code Quality
-on: ["push", "pull"] ## run on push and pulls
+on: ["push", "pull_request"] ## run on push and pulls
 jobs:
   eslint:
     name: Run Code Quality Static Checks ## the name of our job
